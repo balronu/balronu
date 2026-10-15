@@ -13,7 +13,7 @@ für Mobilität, Wetter und unterwegs nutzbare Lovelace-Oberflächen.
 | [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-basierte Tankstellensuche, Preisvergleich und Navigation für Home Assistant. | Stable `v0.6.1` |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Zusammenführung von Flightradar24- und ADS-B-Daten mit integrierter Lovelace-Karte. | Stable `v1.3.1`; weitere Beta-Arbeit nicht veröffentlicht |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes GPS-Reisetagebuch mit Fahrten, Reisen, Stopps und Kosten. | `v0.1.0-beta.13` |
-| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter-Score aus Home-Assistant-Wetterdaten, OpenWeatherMap und lokalen Sensoren. | `v0.1.0-beta.3`; Beta 4 noch nicht veröffentlicht |
+| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter-Score aus Home-Assistant-Wetterdaten, OpenWeatherMap und lokalen Sensoren. | `v0.1.0-beta.4` |
 
 Die Versionen entsprechen den aktuell veröffentlichten GitHub-Releases. Beta-
 und Entwicklungsstände sind ausdrücklich als solche gekennzeichnet.
