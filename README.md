@@ -1,22 +1,32 @@
 # balronu
 
-Home Assistant und Open Source mit Schwerpunkt auf praktischen Integrationen
-für Mobilität, Wetter und unterwegs nutzbare Lovelace-Oberflächen.
+Open Source für Home Assistant mit Schwerpunkt auf Mobilität, Wohnmobil,
+Routenplanung, Flugverkehr und Wetter.
 
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Integrationen-41bdf5?logo=homeassistant&logoColor=white)](https://www.home-assistant.io/)
-[![Dokumentation](https://img.shields.io/badge/Dokumentation-deutsch-2f855a)](https://github.com/balronu)
+[![Dokumentation](https://img.shields.io/badge/Dokumentation-Deutsch%20%7C%20English-2f855a)](README.en.md)
 
-## Eigene Projekte
+## Projekte
+
+Die folgenden fünf Projekte werden eigenständig entwickelt. Gemeinsame
+Dashboard-Einbindung oder optionale Schnittstellen machen sie nicht zu einem
+einzigen Projekt.
 
 | Projekt | Kurzbeschreibung | Stand |
 | --- | --- | --- |
 | [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-basierte Tankstellensuche, Preisvergleich und Navigation für Home Assistant. | Stable `v0.6.1` |
-| [Air Traffic](https://github.com/balronu/ha-air-traffic) | Zusammenführung von Flightradar24- und ADS-B-Daten mit integrierter Lovelace-Karte. | Stable `v1.3.1`; weitere Beta-Arbeit nicht veröffentlicht |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes GPS-Reisetagebuch mit Fahrten, Reisen, Stopps und Kosten. | `v0.1.0-beta.13` |
-| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter-Score aus Home-Assistant-Wetterdaten, OpenWeatherMap und lokalen Sensoren. | `v0.1.0-beta.4` |
+| [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable `v1.3.1`; Beta `v1.4.0-beta.1` |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | GPS-basiertes Reisetagebuch mit Reisen, Fahrten, Historie, Kosten, GPX-Import und Beta-PDF-Berichten. | Stable `v0.1.0`; Beta `v0.2.0-beta.6` |
+| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Beta `v0.3.0-beta.1` |
+| Camper Route Planner | Wohnmobilgerechte Routenplanung mit Fahrzeugmaßen, Gewichtsbeschränkungen, Warnungen, Maut, Länderinformationen, Rastplätzen und geplanter GPX-/Navigationsanbindung. | **In Entwicklung – noch kein öffentliches Repository** |
 
-Die Versionen entsprechen den aktuell veröffentlichten GitHub-Releases. Beta-
-und Entwicklungsstände sind ausdrücklich als solche gekennzeichnet.
+Stable- und Beta-Angaben entsprechen den aktuell veröffentlichten GitHub-
+Releases. Geplante Funktionen sind ausdrücklich als geplant beziehungsweise
+in Entwicklung gekennzeichnet.
+
+Camper Travel Journal, Mobile Fuel Stations und Camper Route Planner können
+optional in ein Wohnmobil-Dashboard eingebunden werden. Sie bleiben getrennte
+Entwicklungen mit eigenen Repositories, Releases und Installationshinweisen.
 
 ## Technische Schwerpunkte
 
@@ -26,7 +36,7 @@ und Entwicklungsstände sind ausdrücklich als solche gekennzeichnet.
 - robuste Aktualisierung, Datenvalidierung und nachvollziehbare Zustände
 - deutschsprachige Dokumentation mit englischer Ergänzung, wo sie sinnvoll ist
 
-## Zusammenarbeit und Feedback
+## Zusammenarbeit und Hinweise
 
 Fehlerberichte, Fragen und Verbesserungsvorschläge sind in den jeweiligen
 Repositories willkommen. Bitte vor dem Erstellen eines Issues die vorhandene
@@ -38,11 +48,12 @@ Version, Integrationsversion sowie reproduzierbare Schritte angeben.
 - [Air Traffic – Issues](https://github.com/balronu/ha-air-traffic/issues)
 - [Camper Travel Journal – Issues](https://github.com/balronu/ha-camper-travel-journal/issues)
 - [Bike Weather – Issues](https://github.com/balronu/ha-bike-weather/issues)
+- [Englische Profilversion](README.en.md)
 
 ## Hinweis zur alten Air-Traffic-Merge-Card
 
 Die frühere [separate Merge Card](https://github.com/balronu/air-traffic-merge-card)
-ist nicht mehr als eigenes Profilprojekt aufgeführt. Ihre Funktion ist in Air
+bleibt als archiviertes Legacy-Projekt erhalten. Ihre Funktion ist in Air
 Traffic integriert; der Legacy-Kartentyp bleibt für bestehende Installationen
-vorerst kompatibel. Eine endgültige Löschung des alten Repositories erfolgt
-nicht ohne ausdrückliche Freigabe.
+kompatibel. Der Fork [brands](https://github.com/balronu/brands) ist kein
+eigenständiges Home-Assistant-Projekt.
