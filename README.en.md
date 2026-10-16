@@ -13,11 +13,11 @@ integration or optional interfaces do not turn them into one project.
 
 | Project | Description | Development status |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-based fuel-station search, fuel prices, multiple providers and a Lovelace card. | Stable `v0.6.1`; beta `v0.7.0-beta.4` |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-based fuel-station search, fuel prices, multiple providers and a Lovelace card. | Stable `v0.6.1`; beta `v0.7.0-beta.6` |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable `v1.3.1`; beta `v1.4.0-beta.1` |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | GPS-based travel journal with trips, drives, history, expenses, GPX import and beta PDF reports. | Stable `v0.1.0`; beta `v0.2.0-beta.6` |
-| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Beta `v0.3.0-beta.1` |
-| Camper Route Planner | Motorhome-aware routing with vehicle dimensions, weight restrictions, warnings, tolls, country information, rest areas and planned GPX/navigation integration. | **In development – no public repository yet** |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | GPS-based travel journal with trips, drives, history, expenses, GPX import and PDF reports. | Stable `v0.2.0` |
+| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable `v0.3.1` |
+| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Motorhome route planning with vehicle profiles, an interactive map, saved routes and GPX export. | **In development – no published release yet** |
 
 Stable and beta labels reflect currently published GitHub releases. Planned
 features are explicitly marked as planned or in development.
