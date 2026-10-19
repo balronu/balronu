@@ -14,7 +14,7 @@ einzigen Projekt.
 
 | Projekt | Kurzbeschreibung | Stand |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-basierte Tankstellensuche, Preisvergleich, mehrere Fahrzeuge/Config Entries und Lovelace-Karte für Home Assistant. | Stable [`v0.7.1`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.7.1) |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit mehreren Fahrzeugen, unabhängigen Config Entries und eigener Lovelace-Karte mit lokalen Markenlogos. | Stable [`v0.7.3`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.7.3) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable `v1.3.1`; Beta `v1.4.0-beta.1` |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.3.0`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.0) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable `v0.3.1` |
@@ -23,6 +23,12 @@ einzigen Projekt.
 Stable-Angaben entsprechen den aktuell veröffentlichten GitHub-Releases.
 Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
 Entwicklung gekennzeichnet.
+
+Mobile Fuel Stations unterstützt Tankerkönig, Nakordoni und Petromap sowie
+Highlights für die nächste und günstigste Tankstelle. v0.7.3 verbessert die
+Nakordoni-E10- und Adressverarbeitung; der erfolgreiche Praxistest der
+Opel-Grandland-Karte mit Nakordoni ist dabei berücksichtigt. Datenverfügbarkeit
+und Adressdetails hängen weiterhin vom jeweiligen Provider ab.
 
 Camper Travel Journal, Mobile Fuel Stations und Camper Route Planner können
 optional in ein Wohnmobil-Dashboard eingebunden werden. Sie bleiben getrennte
