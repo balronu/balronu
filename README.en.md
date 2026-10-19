@@ -13,7 +13,7 @@ integration or optional interfaces do not turn them into one project.
 
 | Project | Description | Development status |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-based fuel-station search, fuel prices, multiple providers and a Lovelace card. | Stable [`v0.7.0`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.7.0) |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | GPS-based fuel-station search, fuel prices, multiple vehicles/Config Entries and a Lovelace card. | Stable [`v0.7.1`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.7.1) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable `v1.3.1`; beta `v1.4.0-beta.1` |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.0`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.0) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable `v0.3.1` |
