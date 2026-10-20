@@ -13,7 +13,7 @@ integration or optional interfaces do not turn them into one project.
 
 | Project | Description | Development status |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home Assistant integration for fuel stations and fuel prices with multiple vehicles, independent Config Entries and a dedicated Lovelace card with local brand logos. | Stable [`v0.7.3`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.7.3) |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home Assistant integration for fuel stations and fuel prices with GPS-based provider selection, fallback, quota diagnostics, multiple vehicles, and a dedicated Lovelace card. | Stable [`v0.8.0`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.0) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable `v1.3.1`; beta `v1.4.0-beta.1` |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.0`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.0) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable `v0.3.1` |
@@ -23,10 +23,10 @@ Stable labels reflect currently published GitHub releases. Planned features
 are explicitly marked as planned or in development.
 
 Mobile Fuel Stations supports Tankerkönig, Nakordoni and Petromap, with
-highlights for the nearest and cheapest station. v0.7.3 improves Nakordoni E10
-and address handling; this also reflects the successful practical test of the
-Opel Grandland card with Nakordoni. Data availability and address detail still
-depend on the respective provider.
+highlights for the nearest and cheapest station. v0.8.0 adds provider-specific
+availability, fallback and quota diagnostics, automatic and manual fetch modes,
+and persisted cache and GPS-country context. Data availability, market
+permissions and address detail still depend on the respective provider.
 
 Camper Travel Journal, Mobile Fuel Stations and Camper Route Planner can be
 combined optionally in a motorhome dashboard. They remain separate projects
