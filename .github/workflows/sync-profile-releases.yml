@@ -1,0 +1,40 @@
+name: Sync profile releases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Synchronize release status from GitHub API
+        run: python3 scripts/sync_profile_releases.py
+      - name: Open update PR when the profile changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- README.md README.en.md; then
+            echo "Profile already matches the published releases."
+            exit 0
+          fi
+          branch="automation/sync-profile-releases"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add README.md README.en.md
+          git commit -m "docs: sync profile release status"
+          git push --force-with-lease origin "$branch"
+          if ! gh pr list --head "$branch" --base main --json number --jq 'length' | grep -qx '0'; then
+            echo "An update PR already exists."
+            exit 0
+          fi
+          gh pr create --base main --head "$branch" \
+            --title "docs: sync profile release status" \
+            --body "Synchronizes the profile README with the five projects' published GitHub Releases. Generated from the public Releases API; no project credentials are used."
