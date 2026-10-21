@@ -13,17 +13,17 @@ integration or optional interfaces do not turn them into one project.
 
 | Project | Description | Development status |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home Assistant integration for fuel stations and fuel prices with GPS-based provider selection, fallback, quota diagnostics, multiple vehicles, and a dedicated Lovelace card. | Stable [`v0.8.0`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.0) |
-| [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable `v1.3.1`; beta `v1.4.0-beta.1` |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.0`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.0) |
-| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable `v0.3.1` |
-| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Motorhome route planning with vehicle profiles, an interactive map, saved routes and GPX export. | **In development – no published release yet** |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home Assistant integration for fuel stations and fuel prices with GPS-based provider selection, fallback, quota diagnostics, multiple vehicles, and a dedicated Lovelace card. | Stable [`v0.8.4`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.4) |
+| [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1); beta [`v1.4.0-beta.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.4.0-beta.1) |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.2`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.2) |
+| [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
+| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Motorhome route planning with vehicle profiles, an interactive map, saved routes and GPX export. | **In development – beta [`v0.1.0-beta.5`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0-beta.5); no stable release yet** |
 
 Stable labels reflect currently published GitHub releases. Planned features
 are explicitly marked as planned or in development.
 
 Mobile Fuel Stations supports Tankerkönig, Nakordoni and Petromap, with
-highlights for the nearest and cheapest station. v0.8.0 adds provider-specific
+highlights for the nearest and cheapest station. v0.8.4 adds provider-specific
 availability, fallback and quota diagnostics, automatic and manual fetch modes,
 and persisted cache and GPS-country context. Data availability, market
 permissions and address detail still depend on the respective provider.
