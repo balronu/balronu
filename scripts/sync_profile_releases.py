@@ -42,7 +42,7 @@ def status(repo):
         link_en = f"[`{beta['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{beta['tag_name']})"
         stable_de = f"{stable_de + '; ' if stable_de else ''}Beta {link_de}"
         stable_en = f"{stable_en + '; ' if stable_en else ''}beta {link_en}"
-    if repo == "ha-camper-route-planner":
+    if repo == "ha-camper-route-planner" and not stable:
         stable_de = f"**In Entwicklung – {stable_de}; noch kein Stable-Release**"
         stable_en = f"**In development – {stable_en}; no stable release yet**"
     return stable_de, stable_en
