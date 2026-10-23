@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "17 * * * *"
 
+concurrency:
+  group: sync-profile-releases
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pull-requests: write

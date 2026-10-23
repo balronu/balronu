@@ -14,6 +14,8 @@ PROJECTS = {
     "Camper Route Planner": "ha-camper-route-planner",
 }
 
+VERSION_TAG = re.compile(r"^v\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$")
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -28,15 +30,31 @@ def releases(repo):
         return json.load(response)
 
 
-def status(repo):
-    items = releases(repo)
-    stable = next((r for r in items if not r["draft"] and not r["prerelease"] and re.fullmatch(r"v\d+\.\d+\.\d+", r["tag_name"])), None)
-    betas = [r for r in items if not r["draft"] and r["prerelease"]]
+def latest_release(items, *, prerelease):
+    candidates = [
+        item
+        for item in items
+        if not item["draft"]
+        and item["prerelease"] is prerelease
+        and VERSION_TAG.fullmatch(item["tag_name"])
+    ]
+    return max(candidates, key=lambda item: item.get("published_at") or "", default=None)
+
+
+def status_from_items(repo, items):
+    stable = latest_release(items, prerelease=False)
+    betas = [
+        item
+        for item in items
+        if not item["draft"]
+        and item["prerelease"]
+        and VERSION_TAG.fullmatch(item["tag_name"])
+    ]
+    beta = max(betas, key=lambda item: item.get("published_at") or "", default=None)
     if not stable and not betas:
         return "**In Entwicklung – noch kein veröffentlichtes Release**", "**In development – no published release yet**"
     stable_de = f"Stable [`{stable['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{stable['tag_name']})" if stable else ""
     stable_en = f"Stable [`{stable['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{stable['tag_name']})" if stable else ""
-    beta = betas[0] if betas else None
     if beta:
         link_de = f"[`{beta['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{beta['tag_name']})"
         link_en = f"[`{beta['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{beta['tag_name']})"
@@ -46,6 +64,10 @@ def status(repo):
         stable_de = f"**In Entwicklung – {stable_de}; noch kein Stable-Release**"
         stable_en = f"**In development – {stable_en}; no stable release yet**"
     return stable_de, stable_en
+
+
+def status(repo):
+    return status_from_items(repo, releases(repo))
 
 
 def replace_row(text, label, replacement):
@@ -63,7 +85,9 @@ def main():
     for label, (de_status, en_status) in statuses.items():
         de = replace_row(de, label, de_status)
         en = replace_row(en, label, en_status)
-    fuel = next(r for r in releases(PROJECTS["Mobile Fuel Stations"]) if not r["draft"] and not r["prerelease"] and re.fullmatch(r"v\d+\.\d+\.\d+", r["tag_name"]))
+    fuel = latest_release(releases(PROJECTS["Mobile Fuel Stations"]), prerelease=False)
+    if fuel is None:
+        raise RuntimeError("Mobile Fuel Stations has no published semver stable release")
     de = re.sub(r"v\d+\.\d+\.\d+ ergänzt", f"{fuel['tag_name']} ergänzt", de, count=1)
     en = re.sub(r"v\d+\.\d+\.\d+ adds", f"{fuel['tag_name']} adds", en, count=1)
     (ROOT / "README.md").write_text(de)
