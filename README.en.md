@@ -3,6 +3,8 @@
 Open source Home Assistant projects focused on mobility, motorhomes, route
 planning, air traffic and weather.
 
+[Website: smartcamper765.de](https://www.smartcamper765.de)
+
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Open%20Source-41bdf5?logo=homeassistant&logoColor=white)](https://www.home-assistant.io/)
 [![Documentation](https://img.shields.io/badge/Documentation-English%20%7C%20Deutsch-2f855a)](README.md)
 
@@ -15,7 +17,7 @@ integration or optional interfaces do not turn them into one project.
 | --- | --- | --- |
 | [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home Assistant integration for fuel stations and fuel prices with GPS-based provider selection, fallback, quota diagnostics, multiple vehicles, and a dedicated Lovelace card. | Stable [`v0.8.4`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.4) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Aircraft data and map visualization in Home Assistant; the former Merge Card is integrated. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1); beta [`v1.4.0-beta.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.4.0-beta.1) |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.3`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.3) |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Privacy-conscious Home Assistant travel journal with trips, drives, expenses, GPX import, place resolution, Lovelace cards and offline PDF reports. | Stable [`v0.3.13`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.13) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
 | [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Motorhome route planning with vehicle profiles, an interactive map, saved routes and GPX export. | Stable [`v0.1.0`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0); beta [`v0.1.0-beta.21`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0-beta.21) |
 
