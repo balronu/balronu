@@ -3,6 +3,8 @@
 Open Source für Home Assistant mit Schwerpunkt auf Mobilität, Wohnmobil,
 Routenplanung, Flugverkehr und Wetter.
 
+[Website: smartcamper765.de](https://www.smartcamper765.de)
+
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Integrationen-41bdf5?logo=homeassistant&logoColor=white)](https://www.home-assistant.io/)
 [![Dokumentation](https://img.shields.io/badge/Dokumentation-Deutsch%20%7C%20English-2f855a)](README.en.md)
 
@@ -16,7 +18,7 @@ einzigen Projekt.
 | --- | --- | --- |
 | [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.4`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.4) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1); Beta [`v1.4.0-beta.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.4.0-beta.1) |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.3.3`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.3) |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.3.13`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.13) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
 | [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.0`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0); Beta [`v0.1.0-beta.21`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0-beta.21) |
 
