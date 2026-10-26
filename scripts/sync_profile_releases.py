@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize the five profile project status cells from GitHub Releases."""
+"""Synchronize the six profile project status cells from GitHub Releases."""
 import json
 import os
 import re
@@ -11,6 +11,7 @@ PROJECTS = {
     "Air Traffic": "ha-air-traffic",
     "Camper Travel Journal": "ha-camper-travel-journal",
     "Bike Weather": "ha-bike-weather",
+    "Camper Weather": "ha-camper-weather",
     "Camper Route Planner": "ha-camper-route-planner",
 }
 
