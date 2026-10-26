@@ -10,7 +10,7 @@ Routenplanung, Flugverkehr und Wetter.
 
 ## Projekte
 
-Die folgenden fünf Projekte werden eigenständig entwickelt. Gemeinsame
+Die folgenden sechs Projekte werden eigenständig entwickelt. Gemeinsame
 Dashboard-Einbindung oder optionale Schnittstellen machen sie nicht zu einem
 einzigen Projekt.
 
@@ -18,9 +18,10 @@ einzigen Projekt.
 | --- | --- | --- |
 | [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.4`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.4) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1); Beta [`v1.4.0-beta.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.4.0-beta.1) |
-| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.3.13`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.13) |
+| [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.3.13`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.3.13); Beta [`v0.4.0-beta.3`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.4.0-beta.3) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
-| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.0`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0); Beta [`v0.1.0-beta.21`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0-beta.21) |
+| [Camper Weather](https://github.com/balronu/ha-camper-weather) | Wetter-, Camping- und Freizeitassistent für Wohnmobile mit Open-Meteo, Warnungen, Camping-Score und eigener Lovelace-Karte. | Beta [`v0.1.0-beta.1`](https://github.com/balronu/ha-camper-weather/releases/tag/v0.1.0-beta.1) |
+| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.0`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.0); Beta [`v0.1.1-beta.1`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.1-beta.1) |
 
 Stable-Angaben entsprechen den aktuell veröffentlichten GitHub-Releases.
 Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
@@ -57,6 +58,7 @@ Version, Integrationsversion sowie reproduzierbare Schritte angeben.
 - [Air Traffic – Issues](https://github.com/balronu/ha-air-traffic/issues)
 - [Camper Travel Journal – Issues](https://github.com/balronu/ha-camper-travel-journal/issues)
 - [Bike Weather – Issues](https://github.com/balronu/ha-bike-weather/issues)
+- [Camper Weather – Issues](https://github.com/balronu/ha-camper-weather/issues)
 - [Camper Route Planner – Issues](https://github.com/balronu/ha-camper-route-planner/issues)
 - [Englische Profilversion](README.en.md)
 
