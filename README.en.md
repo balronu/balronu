@@ -26,7 +26,8 @@ Stable labels reflect currently published GitHub releases. Planned features
 are explicitly marked as planned or in development.
 
 Mobile Fuel Stations supports Tankerkönig, Nakordoni and Petromap, with
-highlights for the nearest and cheapest station. v0.8.7 adds provider-specific
+highlights for the nearest and cheapest station. v0.8.7 is a maintenance release
+without functional changes; the existing provider-specific
 availability, fallback and quota diagnostics, automatic and manual fetch modes,
 and persisted cache and GPS-country context. Data availability, market
 permissions and address detail still depend on the respective provider.

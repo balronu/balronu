@@ -28,7 +28,8 @@ Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
 Entwicklung gekennzeichnet.
 
 Mobile Fuel Stations unterstützt Tankerkönig, Nakordoni und Petromap sowie
-Highlights für die nächste und günstigste Tankstelle. v0.8.7 ergänzt
+Highlights für die nächste und günstigste Tankstelle. v0.8.7 ist ein
+Wartungsrelease ohne Funktionsänderungen; die bestehenden providerbezogenen
 providerbezogene Verfügbarkeit, Fallback- und Kontingentdiagnose, automatische
 und manuelle Abrufmodi sowie persistente Cache- und GPS-Länderinformationen.
 Datenverfügbarkeit, Marktberechtigungen und Adressdetails hängen weiterhin vom
