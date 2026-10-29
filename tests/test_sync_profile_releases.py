@@ -44,6 +44,20 @@ class ReleaseSelectionTests(unittest.TestCase):
         self.assertIn("In Entwicklung", de)
         self.assertIn("In development", en)
 
+    def test_stable_hides_all_prereleases(self):
+        items = [
+            release("v1.0.0"),
+            release("v2.0.0-beta.1", prerelease=True, published_at="2026-03-02T00:00:00Z"),
+            release("v2.0.0-rc.1", prerelease=True, published_at="2026-03-03T00:00:00Z"),
+        ]
+        de, en = MODULE.status_from_items("ha-camper-weather", items)
+        self.assertIn("Stable [`v1.0.0`]", de)
+        self.assertIn("Stable [`v1.0.0`]", en)
+        self.assertNotIn("beta", de.lower())
+        self.assertNotIn("beta", en.lower())
+        self.assertNotIn("rc", de.lower())
+        self.assertNotIn("rc", en.lower())
+
 
 if __name__ == "__main__":
     unittest.main()
