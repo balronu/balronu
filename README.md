@@ -16,7 +16,7 @@ einzigen Projekt.
 
 | Projekt | Kurzbeschreibung | Stand |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.6`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.6) |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.7`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.7) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1); Beta [`v1.4.0-beta.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.4.0-beta.1) |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.4.1`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.4.1) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
@@ -28,8 +28,9 @@ Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
 Entwicklung gekennzeichnet.
 
 Mobile Fuel Stations unterstützt Tankerkönig, Nakordoni und Petromap sowie
-Highlights für die nächste und günstigste Tankstelle. v0.8.6 ergänzt
-providerbezogene Verfügbarkeit, Fallback- und Kontingentdiagnose, automatische
+Highlights für die nächste und günstigste Tankstelle. v0.8.7 ist ein
+Wartungsrelease ohne Funktionsänderungen; die bestehenden providerbezogenen
+Verfügbarkeits-, Fallback- und Kontingentdiagnosen, automatischen
 und manuelle Abrufmodi sowie persistente Cache- und GPS-Länderinformationen.
 Datenverfügbarkeit, Marktberechtigungen und Adressdetails hängen weiterhin vom
 jeweiligen Provider ab.
