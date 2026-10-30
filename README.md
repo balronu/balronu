@@ -16,19 +16,19 @@ einzigen Projekt.
 
 | Projekt | Kurzbeschreibung | Stand |
 | --- | --- | --- |
-| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.6`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.6) |
+| [Mobile Fuel Stations](https://github.com/balronu/ha-mobile-fuel-stations) | Home-Assistant-Integration für Tankstellen und Kraftstoffpreise mit GPS-basierter Providerwahl, Fallback, Kontingentdiagnose, mehreren Fahrzeugen und eigener Lovelace-Karte. | Stable [`v0.8.7`](https://github.com/balronu/ha-mobile-fuel-stations/releases/tag/v0.8.7) |
 | [Air Traffic](https://github.com/balronu/ha-air-traffic) | Flugzeugdaten und Kartenvisualisierung in Home Assistant; die frühere Merge Card ist integriert. | Stable [`v1.3.1`](https://github.com/balronu/ha-air-traffic/releases/tag/v1.3.1) |
 | [Camper Travel Journal](https://github.com/balronu/ha-camper-travel-journal) | Datenschutzbewusstes Reisetagebuch für Home Assistant mit Reisen, Fahrten, Kosten, GPX-Import, Ortsauflösung, Lovelace-Karten und Offline-PDF-Reiseberichten. | Stable [`v0.4.1`](https://github.com/balronu/ha-camper-travel-journal/releases/tag/v0.4.1) |
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
 | [Camper Weather](https://github.com/balronu/ha-camper-weather) | Wetter-, Camping- und Freizeitassistent für Wohnmobile mit Open-Meteo, Warnungen, Camping-Score und eigener Lovelace-Karte. | Stable [`v0.1.3`](https://github.com/balronu/ha-camper-weather/releases/tag/v0.1.3) |
-| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.1`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.1) |
+| [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.5`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.5) |
 
 Stable-Angaben entsprechen den aktuell veröffentlichten GitHub-Releases.
 Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
 Entwicklung gekennzeichnet.
 
 Mobile Fuel Stations unterstützt Tankerkönig, Nakordoni und Petromap sowie
-Highlights für die nächste und günstigste Tankstelle. v0.8.6 ergänzt
+Highlights für die nächste und günstigste Tankstelle. v0.8.7 ergänzt
 providerbezogene Verfügbarkeit, Fallback- und Kontingentdiagnose, automatische
 und manuelle Abrufmodi sowie persistente Cache- und GPS-Länderinformationen.
 Datenverfügbarkeit, Marktberechtigungen und Adressdetails hängen weiterhin vom

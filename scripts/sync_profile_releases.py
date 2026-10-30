@@ -53,10 +53,9 @@ def status_from_items(repo, items):
     ]
     if not stable and not betas:
         return "**In Entwicklung – noch kein veröffentlichtes Release**", "**In development – no published release yet**"
-    # Stable releases deliberately hide prereleases.  A beta is exposed only
-    # while the project has no published Stable release; this keeps the public
-    # profile aligned with the global release cleanup policy.
-    beta = max(betas, key=lambda item: item.get("published_at") or "", default=None) if not stable else None
+    # Keep the current prerelease line visible alongside Stable. Stable does
+    # not imply that a newer active beta is obsolete.
+    beta = max(betas, key=lambda item: item.get("published_at") or "", default=None)
     stable_de = f"Stable [`{stable['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{stable['tag_name']})" if stable else ""
     stable_en = f"Stable [`{stable['tag_name']}`](https://github.com/balronu/{repo}/releases/tag/{stable['tag_name']})" if stable else ""
     if beta:
