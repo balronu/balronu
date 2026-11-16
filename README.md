@@ -10,7 +10,7 @@ Routenplanung, Flugverkehr und Wetter.
 
 ## Projekte
 
-Die folgenden sechs Projekte werden eigenständig entwickelt. Gemeinsame
+Die folgenden sieben Projekte werden eigenständig entwickelt. Gemeinsame
 Dashboard-Einbindung oder optionale Schnittstellen machen sie nicht zu einem
 einzigen Projekt.
 
@@ -22,6 +22,7 @@ einzigen Projekt.
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Fahrradwetter, Tourenplanung, regelmäßige Fahrten, Morgenprognose und eigene Lovelace-Karte. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
 | [Camper Weather](https://github.com/balronu/ha-camper-weather) | Wetter-, Camping- und Freizeitassistent für Wohnmobile mit Open-Meteo, Warnungen, Camping-Score und eigener Lovelace-Karte. | Stable [`v0.1.3`](https://github.com/balronu/ha-camper-weather/releases/tag/v0.1.3) |
 | [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Wohnmobil-Routenplanung mit Fahrzeugprofilen, interaktiver Karte, gespeicherten Routen und GPX-Export. | Stable [`v0.1.6`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.6) |
+| [Smart Heating](https://github.com/balronu/ha-smart-heating) | Passive Smart-Heating-Integration für Raumzuordnung, Wochenplan, Sondermodi und nachvollziehbare Übergabeprüfung; die Beta schaltet keine Heizbefehle frei. | Beta [`v0.1.0-beta.76`](https://github.com/balronu/ha-smart-heating/releases/tag/v0.1.0-beta.76) |
 
 Stable-Angaben entsprechen den aktuell veröffentlichten GitHub-Releases.
 Geplante Funktionen sind ausdrücklich als geplant beziehungsweise in
@@ -61,6 +62,7 @@ Version, Integrationsversion sowie reproduzierbare Schritte angeben.
 - [Bike Weather – Issues](https://github.com/balronu/ha-bike-weather/issues)
 - [Camper Weather – Issues](https://github.com/balronu/ha-camper-weather/issues)
 - [Camper Route Planner – Issues](https://github.com/balronu/ha-camper-route-planner/issues)
+- [Smart Heating – Issues](https://github.com/balronu/ha-smart-heating/issues)
 - [Englische Profilversion](README.en.md)
 
 ## Hinweis zur alten Air-Traffic-Merge-Card

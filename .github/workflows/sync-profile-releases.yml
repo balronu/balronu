@@ -44,4 +44,4 @@ jobs:
           fi
           gh pr create --base main --head "$branch" \
             --title "docs: sync profile release status" \
-            --body "Synchronizes the profile README with the five projects' published GitHub Releases. Generated from the public Releases API; no project credentials are used."
+            --body "Synchronizes the profile README with the seven projects' published GitHub Releases. Generated from the public Releases API; no project credentials are used."
