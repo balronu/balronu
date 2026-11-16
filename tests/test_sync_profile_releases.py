@@ -20,6 +20,9 @@ def release(tag, *, prerelease=False, draft=False, published_at="2026-01-01T00:0
 
 
 class ReleaseSelectionTests(unittest.TestCase):
+    def test_smart_heating_is_in_the_profile_catalog(self):
+        self.assertEqual(MODULE.PROJECTS["Smart Heating"], "ha-smart-heating")
+
     def test_ignores_drafts_and_non_version_releases(self):
         items = [
             release("v9.9.9", draft=True),
