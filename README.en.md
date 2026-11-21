@@ -21,7 +21,7 @@ integration or optional interfaces do not turn them into one project.
 | [Bike Weather](https://github.com/balronu/ha-bike-weather) | Cycling weather, ride planning, regular rides, tomorrow forecast and a dedicated Lovelace card. | Stable [`v0.3.1`](https://github.com/balronu/ha-bike-weather/releases/tag/v0.3.1) |
 | [Camper Weather](https://github.com/balronu/ha-camper-weather) | Weather, camping and outdoor assistant for motorhomes with Open-Meteo, warnings, camping score and a dedicated Lovelace card. | Stable [`v0.1.3`](https://github.com/balronu/ha-camper-weather/releases/tag/v0.1.3) |
 | [Camper Route Planner](https://github.com/balronu/ha-camper-route-planner) | Motorhome route planning with vehicle profiles, an interactive map, saved routes and GPX export. | Stable [`v0.1.6`](https://github.com/balronu/ha-camper-route-planner/releases/tag/v0.1.6) |
-| [Smart Notification Manager](https://github.com/balronu/ha-smart-notification-manager) | Visual Home Assistant rule editor with entity selection, alarm lifecycle, recipients, and diagnostics. | Beta [`v0.1.0-beta.11`](https://github.com/balronu/ha-smart-notification-manager/releases/tag/v0.1.0-beta.11) |
+| [Smart Notification Manager](https://github.com/balronu/ha-smart-notification-manager) | Visual Home Assistant rule editor with entity selection, alarm lifecycle, recipients, and diagnostics. | beta [`v0.1.0-beta.12`](https://github.com/balronu/ha-smart-notification-manager/releases/tag/v0.1.0-beta.12) |
 
 Stable labels reflect currently published GitHub releases. Planned features
 are explicitly marked as planned or in development.
